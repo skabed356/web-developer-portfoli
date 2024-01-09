@@ -312,6 +312,34 @@ button.join-btn {
     background-repeat: no-repeat;
     /* background: #070211; */
 }
+.subs-text-bloxk{
+    width: 648px ;
+    height: 72px;
+    flex-shrink: 0;
+    border: 1px solid black;
+    /* border-right:30px */
+    margin: 16px 0px 65px 0px;
+    border-top-left-radius: 36px;
+    border-bottom-left-radius: 36px;
+}
+
+.subs-batton {
+    width: 210px;
+    height: 75px;
+    flex-shrink: 0; 
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    font-style: normal;
+    margin-top: 15px;
+    text-align: center;
+    color: azure;
+    font-size: 22px;
+    font-weight: 600px;
+    border: none;
+    font-family: Inter;
+}
+
+
 .section-tittle{
     width: 1140px;
     height: 609px;
