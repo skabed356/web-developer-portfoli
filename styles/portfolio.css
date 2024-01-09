@@ -318,9 +318,10 @@ button.join-btn {
     flex-shrink: 0;
     border: 1px solid black;
     /* border-right:30px */
-    margin: 16px 0px 65px 0px;
+    margin: 21px 0px 65px 150px;
     border-top-left-radius: 36px;
     border-bottom-left-radius: 36px;
+    
 }
 
 .subs-batton {
@@ -338,19 +339,26 @@ button.join-btn {
     border: none;
     font-family: Inter;
 }
+.footer{
+    background: #070211;
+}
 
 
 .section-tittle{
-    width: 1140px;
+    display: flex;
+    width: 1320px;
     height: 609px;
     flex-shrink: 0;
     border-radius: 16px;
+    
+    
 }
-nav {
+.section{
     display: flex;
     list-style-image:image/Call.png ;
     list-style-image: ;
     justify-content: space-between;
+    
 }
 
 nav li {
@@ -359,6 +367,23 @@ nav li {
 nav a{
     text-decoration: none;
 }
-.social-links{
-    display: flex;
+
+.fb {
+  
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    padding:298px 896px 247px 640 ;
+
 }
+.place{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+}
+
+ 
+
